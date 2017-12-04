@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EE82EE"
+    tools:context="com.example.user.assignment121.UpdateFrequency">
+
+    <Button
+        android:text="Week (7 Days)"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textColor="#A52A2A"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/week_btn" />
+
+    <Button
+        android:text="FortNight (15 Days)"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#A52A2A"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/fortnight_btn" />
+
+    <Button
+        android:text="Month (30 Days)"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#A52A2A"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/month_btn" />
+
+    <Button
+        android:text="Never (I will do Myself)"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#A52A2A"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/never_btn" />
+
+</LinearLayout>
